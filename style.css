@@ -1,0 +1,90 @@
+body {
+  font-family: sans-serif;
+}
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.container {
+  display: block;
+  padding: 50px 20px 50px;
+  background: rgb(20, 32, 16);
+  border-radius: 30px;
+  max-width: 880px;
+  margin: 0 auto;
+  margin-top: 50px;
+  opacity: 85%;
+  color: white;
+}
+li {
+  list-style: none;
+}
+.card-text {
+  font-size: 12px;
+  text-align: center;
+  color: black;
+}
+.card-subtitle {
+  font-size: 22px;
+  text-align: center;
+}
+.card-title {
+  font-size: 22px;
+  text-align: center;
+}
+.fa-sun {
+  color: darkgoldenrod;
+  font-size: 48px;
+}
+.fa-cloud-showers-heavy {
+  color: rgb(79, 49, 47);
+  font-size: 48px;
+}
+.fa-cloud-bolt {
+  color: dodgerblue;
+  font-size: 48px;
+}
+.fa-cloud {
+  color: gray;
+}
+i.fa-solid.fa-cloud {
+  text-align: center;
+  color: rgb(158, 168, 168);
+  font-size: 48px;
+}
+.city {
+  font-size: 30px;
+}
+.country {
+  font-size: 30px;
+}
+.units {
+  position: relative;
+  top: -22px;
+}
+.search-form {
+  margin: 0px 0px 20px 0px;
+}
+div.col-2 {
+  text-align: center;
+}
+div.col-3 {
+  text-align: center;
+}
+div.col-4 {
+  padding-top: 10px;
+  text-align: center;
+}
+.temperature {
+  font-size: 50px;
+}
+.currentData {
+  font-size: 20px;
+}
