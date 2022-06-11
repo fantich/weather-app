@@ -88,3 +88,25 @@ div.col-4 {
 .currentData {
   font-size: 20px;
 }
+footer {
+  color: white;
+  display: block;
+  padding: 10px 20px 50px;
+  max-width: 880px;
+  margin: 0 auto;
+}
+#link {
+  color: #b8c061;
+  text-decoration: none;
+}
+input[type="submit"] {
+  background: #646a25;
+  border-color: #58612a;
+}
+input[type="submit"]:hover {
+  color: white;
+  background: #939b3d;
+  border-color: #41491c;
+  transition: all 200ms ease-in-out;
+  cursor: grab;
+}
