@@ -100,12 +100,13 @@ footer {
   text-decoration: none;
 }
 input[type="submit"] {
-  background: #646a25;
-  border-color: #58612a;
+  background: #646a25 !important;
+  border-color: #58612a !important;
 }
 input[type="submit"]:hover {
   color: white;
-  background: #939b3d;
+  background-color: #939b3d !important;
+  background: #b8c061 !important;
   border-color: #41491c;
   transition: all 200ms ease-in-out;
   cursor: grab;
