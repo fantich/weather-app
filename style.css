@@ -68,6 +68,13 @@ i.fa-solid.fa-cloud {
 .units {
   position: relative;
   top: -22px;
+  color: #b3bb5d !important;
+}
+#celsius-link {
+  color: #b3bb5d !important;
+}
+#fahrenheit-link {
+  color: #b3bb5d !important;
 }
 .search-form {
   margin: 0px 0px 20px 0px;
@@ -110,4 +117,12 @@ input[type="submit"]:hover {
   border-color: #41491c;
   transition: all 200ms ease-in-out;
   cursor: grab;
+}
+.condition strong {
+  color: #b3bb5d;
+  font-weight: bold;
+}
+.description {
+  color: #b3bb5d;
+  font-weight: bold;
 }
