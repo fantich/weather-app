@@ -14,7 +14,7 @@ body {
 }
 .container {
   display: block;
-  padding: 50px 20px 50px;
+  padding: 15px 20px 25px;
   background: rgb(20, 32, 16);
   border-radius: 30px;
   max-width: 880px;
@@ -59,15 +59,21 @@ i.fa-solid.fa-cloud {
   color: rgb(158, 168, 168);
   font-size: 48px;
 }
-.city {
+.location {
   font-size: 30px;
+  line-height: 1.2;
+  padding: 5px 1px;
+  margin: auto;
 }
-.country {
-  font-size: 30px;
+.condition {
+  font-size: 15px;
+  line-height: 1;
+  padding: 5px 1px;
+  margin: auto;
 }
 .units {
   position: relative;
-  top: -22px;
+  top: -23px;
   color: #b3bb5d !important;
 }
 #celsius-link {
@@ -79,26 +85,23 @@ i.fa-solid.fa-cloud {
 .search-form {
   margin: 0px 0px 20px 0px;
 }
-div.col-2 {
+div.row {
   text-align: center;
+  padding: 5px 1px;
 }
-div.col-3 {
-  text-align: center;
-}
-div.col-4 {
-  padding-top: 10px;
-  text-align: center;
-}
+
 .temperature {
   font-size: 50px;
+  line-height: 2;
 }
 .currentData {
   font-size: 20px;
+  padding: 1px 12px;
 }
 footer {
   color: white;
   display: block;
-  padding: 10px 20px 50px;
+  padding: 10px 32px 50px;
   max-width: 880px;
   margin: 0 auto;
 }
@@ -118,11 +121,23 @@ input[type="submit"]:hover {
   transition: all 200ms ease-in-out;
   cursor: grab;
 }
-.condition strong {
+#pressure {
   color: #b3bb5d;
   font-weight: bold;
+  line-height: 2;
+}
+#humidity {
+  color: #b3bb5d;
+  font-weight: bold;
+  line-height: 2;
+}
+#wind {
+  color: #b3bb5d;
+  font-weight: bold;
+  line-height: 2;
 }
 .description {
   color: #b3bb5d;
   font-weight: bold;
+  font-size: 15px;
 }
