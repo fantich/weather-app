@@ -61,7 +61,9 @@ div.row {
   text-align: center;
   padding: 5px 1px;
 }
-
+.card {
+  background-color: #bdc19a;
+}
 .temperature {
   font-size: 50px;
   line-height: 2;
@@ -70,13 +72,7 @@ div.row {
   font-size: 20px;
   padding: 1px 12px;
 }
-footer {
-  color: white;
-  display: block;
-  padding: 10px 32px 50px;
-  max-width: 880px;
-  margin: 0 auto;
-}
+
 #link {
   color: #b8c061;
   text-decoration: none;
@@ -127,4 +123,11 @@ input[type="submit"]:hover {
 }
 #weather-forecast-day-min {
   opacity: 0.6;
+}
+footer {
+  color: white;
+  display: block;
+  padding: 10px 32px 50px;
+  max-width: 880px;
+  margin: 0 auto;
 }
