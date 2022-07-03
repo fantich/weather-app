@@ -26,38 +26,10 @@ body {
 li {
   list-style: none;
 }
-.card-text {
+.weather-forecast {
   font-size: 12px;
   text-align: center;
   color: black;
-}
-.card-subtitle {
-  font-size: 22px;
-  text-align: center;
-}
-.card-title {
-  font-size: 22px;
-  text-align: center;
-}
-.fa-sun {
-  color: darkgoldenrod;
-  font-size: 48px;
-}
-.fa-cloud-showers-heavy {
-  color: rgb(79, 49, 47);
-  font-size: 48px;
-}
-.fa-cloud-bolt {
-  color: dodgerblue;
-  font-size: 48px;
-}
-.fa-cloud {
-  color: gray;
-}
-i.fa-solid.fa-cloud {
-  text-align: center;
-  color: rgb(158, 168, 168);
-  font-size: 48px;
 }
 .location {
   font-size: 30px;
@@ -140,4 +112,19 @@ input[type="submit"]:hover {
   color: #b3bb5d;
   font-weight: bold;
   font-size: 15px;
+}
+.weather-forecast-day {
+  font-size: 16px;
+  color: #41491c;
+  margin: 0%;
+}
+.weather-forecast-temperatures {
+  font-size: 15px;
+  color: #41491c;
+  font-weight: bold;
+  line-height: 2;
+  margin: 0%;
+}
+#weather-forecast-day-min {
+  opacity: 0.6;
 }
